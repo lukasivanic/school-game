@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+nav {
+  height: 80px;
+  background-color: rgb(65, 60, 80);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 249, 242);
+}
+.navLeft {
+  display: flex;
+}
+h2 + h2 {
+  margin-left: 30px;
+}
+.gameGrid {
+  width: 800px;
+  height: 600px;
+  background-color: blue;
+  margin: 50px auto;
+  border: solid black 5px;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gameGridItem {
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scoreBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 15px;
+}
+p {
+  font-size: 1.5rem;
+}
+button {
+  font-size: 1.5rem;
+  margin: 5px;
+}
