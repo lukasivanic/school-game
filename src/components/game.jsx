@@ -68,6 +68,7 @@ const ClickerGame = () => {
             className='gameGridItem'
             onClick={()=> handleColorChange(id)}
           >
+            {item.id}
           </div>
         ))}
         
