@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import Nav from './components/nav'
-import ClickerGame from './components/game'
+import { useState } from "react";
+import "./App.css";
+import Nav from "./components/nav";
+import ClickerGame from "./components/game";
 
 function App() {
-  return(
+  return (
     <>
       <Nav />
       <ClickerGame />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
