@@ -42,6 +42,9 @@ const ClickerGame = () => {
 
   function getRandom() {
     const updatedData = [...squareData];
+    updatedData.forEach((item) => {
+      item.color = "blue";
+    });
     const randomIndex = Math.floor(Math.random() * updatedData.length);
     updatedData[randomIndex].color = "red";
     return setSquareData(updatedData);
