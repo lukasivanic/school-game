@@ -1,0 +1,86 @@
+.login {
+  width: 450px;
+  height: 600px;
+  margin: auto;
+  border-radius: 30px;
+  background-color: rgb(39, 39, 39);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+label {
+  margin-left: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: rgb(180, 180, 180);
+}
+.name {
+  margin-top: 70px;
+}
+input {
+  margin: 15px 40px;
+  line-height: 2rem;
+  background-color: rgb(39, 39, 39);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-bottom: 1px black solid;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  padding-left: 10px;
+}
+h1 {
+  font-size: 2.6rem;
+  margin: 30px 0 10px 40px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+h2 {
+  font-family: "Inter", sans-serif;
+  color: rgb(180, 180, 180);
+  margin: 0 43px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.button {
+  background-color: rgb(69, 28, 102);
+  border-radius: 18px;
+  width: 80%;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 3rem;
+  margin: 100px auto 0;
+  border: none;
+  transition: 0.15s ease-in-out;
+}
+.button:hover {
+  scale: 1.04;
+}
+.acc-ask {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  margin: 10px auto;
+  color: rgb(180, 180, 180);
+}
+a {
+  text-decoration: none;
+  color: rgb(183, 0, 255);
+  transition: 0.1s ease-in-out;
+}
+a:hover {
+  color: rgb(174, 139, 255);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
+}
+input:focus {
+  outline-style: none;
+}

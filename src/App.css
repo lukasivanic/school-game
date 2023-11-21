@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  text-decoration: none;
 }
 nav {
   height: 80px;
@@ -49,4 +50,7 @@ p {
 button {
   font-size: 1.5rem;
   margin: 5px;
+}
+a {
+  color: rgb(255, 249, 242);
 }
