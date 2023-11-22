@@ -3,7 +3,7 @@ import "./styles/login.css";
 
 function Login() {
   return (
-    <div className="login">
+    <div id="login">
       <h1>Welcome back!</h1>
       <h2>Login to you account</h2>
       <label className="name" htmlFor="name">
