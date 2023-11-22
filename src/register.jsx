@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./register.css";
+import "./styles/register.css";
 
 function Register() {
   return (
@@ -10,10 +10,10 @@ function Register() {
       <label className="name">User name</label>
       <input type="text" id="name" />
 
-      <label for="email">Email</label>
+      <label htmlFor="email">Email</label>
       <input type="email" id="email" />
 
-      <label for="password">Password</label>
+      <label htmlFor="password">Password</label>
       <input type="password" id="password" />
 
       <input className="button" type="submit" value="Signup" />
