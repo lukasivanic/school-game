@@ -4,15 +4,15 @@ import "./login.css";
 
 function Login() {
   return (
-    <div className="login">
+    <div id="login">
       <h1>Welcome back!</h1>
       <h2>Login to you account</h2>
-      <label className="name" for="name">
+      <label className="name" htmlFor="name">
         User name
       </label>
       <input type="text" id="name" />
 
-      <label for="password">Password</label>
+      <label htmlFor="password">Password</label>
       <input type="password" id="password" />
 
       <input className="button" type="submit" value="Login" />
