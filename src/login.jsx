@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import "./login.css";
+import "./styles/login.css";
 
 function Login() {
   return (
@@ -17,7 +16,7 @@ function Login() {
 
       <input className="button" type="submit" value="Login" />
       <div className="acc-ask">
-        Dont have account?<Link to="/register"> Sign in</Link>
+        Don&apos;t have account?<Link to="/register"> Sign in</Link>
       </div>
     </div>
   );
